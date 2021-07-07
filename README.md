@@ -12,3 +12,11 @@ Eventually, I want to experiment with the generative placement of meta balls to 
 I then want to combine those shapes with noise-based displacement shaders to create coloring schemes that look life-like.
 
 We'll see how it goes :)
+
+List of Scripts:
+
+- addObjectScript.py : 
+    Basic script to get acquainted with Python scripting environment
+- addObjectwithModifiers.py : 
+    script made by following youtube tutorial (https://www.youtube.com/watch?v=XqX5wh4YeRw&t=8s) to create an object with modifiers from the Python console
+
