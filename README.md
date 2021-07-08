@@ -15,6 +15,7 @@ We'll see how it goes :)
 
 Next steps:
 - Create a row of meta-balls that connect (all same size and then different size)
+- Make a cube with bmesh
 - Complete this tutorial: https://www.youtube.com/watch?v=mljWBuj0Gho&list=RDCMUCzghqpGuEmk4YdVewxA79GA&index=2 (DONE - result: createMeshFromScratch.py)
 
 
