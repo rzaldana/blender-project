@@ -14,7 +14,9 @@ I then want to combine those shapes with noise-based displacement shaders to cre
 We'll see how it goes :)
 
 Next steps:
-- Complete this tutorial: https://www.youtube.com/watch?v=mljWBuj0Gho&list=RDCMUCzghqpGuEmk4YdVewxA79GA&index=2
+- Create a row of meta-balls that connect (all same size and then different size)
+- Complete this tutorial: https://www.youtube.com/watch?v=mljWBuj0Gho&list=RDCMUCzghqpGuEmk4YdVewxA79GA&index=2 (DONE - result: createMeshFromScratch.py)
+
 
 List of Scripts:
 
