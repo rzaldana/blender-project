@@ -14,7 +14,9 @@ I then want to combine those shapes with noise-based displacement shaders to cre
 We'll see how it goes :)
 
 Next steps:
-- Create a row of meta-balls that connect (all same size and then different size)
+- Render current metaballs structure
+- Figure out how metaballs objects work (is there a mesh associated to the object? A mesh substitute?)
+- Create a row of meta-balls that connect (all same size and then different size) (DONE. result: metaballs.py)
 - Make a cube with bmesh
 - Complete this tutorial: https://www.youtube.com/watch?v=mljWBuj0Gho&list=RDCMUCzghqpGuEmk4YdVewxA79GA&index=2 (DONE - result: createMeshFromScratch.py)
 
