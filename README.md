@@ -3,7 +3,7 @@ Date: July 6, 2021
 
 Hello,
 
-This repository keeps track of my experiments with Python's API.
+This repository keeps track of my experiments with Blender's Python API.
 
 I'm particularly interested in generating meshes that look interesting.
 
