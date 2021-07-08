@@ -22,5 +22,12 @@ List of Scripts:
     Basic script to get acquainted with Python scripting environment
 - addObjectwithModifiers.py : 
     script made by following youtube tutorial (https://www.youtube.com/watch?v=XqX5wh4YeRw&t=8s) to create an object with modifiers from the Python console
+- createMeshFromScratch.py :
+	script to create and display an object by creating the mesh
+- EasyBPYtest.py : 
+	A script to test that the EasyBPY module is imported correctly
+
+Modules:
+- EasyBPY: provides plain English wrappers for data-block references and functions (To install, copy the EasyBPY.py file to C:/Users/[User]/AppData/Roaming/BlenderFoundation/Blender/[Blender Version]/scripts/modules. If any of the directories doesn't exist, create it)
 
 
