@@ -14,7 +14,10 @@ I then want to combine those shapes with noise-based displacement shaders to cre
 We'll see how it goes :)
 
 Next steps:
-- Render current metaballs structure
+- Reorganize files (create a folder for scripts and a folder for images)
+- Experiment with size and placement of metaballs to create different structures
+- Experiment with deforming metaballs structure
+- Render current metaballs structure (Done)
 - Figure out how metaballs objects work (is there a mesh associated to the object? A mesh substitute?)
 - Create a row of meta-balls that connect (all same size and then different size) (DONE. result: metaballs.py)
 - Make a cube with bmesh
@@ -34,5 +37,8 @@ List of Scripts:
 
 Modules:
 - EasyBPY: provides plain English wrappers for data-block references and functions (To install, copy the EasyBPY.py file to C:/Users/[User]/AppData/Roaming/BlenderFoundation/Blender/[Blender Version]/scripts/modules. If any of the directories doesn't exist, create it)
+
+Sources:
+- 3 point lighting: https://www.youtube.com/watch?v=RDbrOpnIY7Q
 
 
