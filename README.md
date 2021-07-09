@@ -35,10 +35,21 @@ List of Scripts:
 - EasyBPYtest.py : 
 	A script to test that the EasyBPY module is imported correctly
 
+Organization:
+- Only create new branch when you render something
+
 Modules:
 - EasyBPY: provides plain English wrappers for data-block references and functions (To install, copy the EasyBPY.py file to C:/Users/[User]/AppData/Roaming/BlenderFoundation/Blender/[Blender Version]/scripts/modules. If any of the directories doesn't exist, create it)
 
 Sources:
 - 3 point lighting: https://www.youtube.com/watch?v=RDbrOpnIY7Q
+
+Noise:
+- Noise functions in Blender are in the mathutils.noise module
+	- e.g. mathutils.noise.noise(), mathutils.noise.hetero_terrain()
+- Noise functions return the same value for all integer co-ordinates
+	- e.g. (1, 0, 0) returns the same noise value as (2, 0, 0) and (3, 0, 0)
+- But they return different values for (1.1, 0, 0) and (2.1, 0, 0)
+- Overall, it's best to keep the step in between the different values < 1
 
 

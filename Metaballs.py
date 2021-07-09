@@ -16,7 +16,12 @@ for x in range(-5,6):
     z = 0
     if (x%2)==0:
         z = 1
-    bpy.ops.object.metaball_add(type='BALL', radius=random.randint(1, 2), enter_editmode=False, align='WORLD', location=(x, 0, z), scale=(1, 1, 1))
+    bpy.ops.object.metaball_add(type='BALL', 
+                                radius=random.uniform(0.5, 3), 
+                                enter_editmode=False, 
+                                align='WORLD', 
+                                location=(x, 0, z), 
+                                scale=(1, 1, 1))
     so = bpy.context.active_object
 
 
