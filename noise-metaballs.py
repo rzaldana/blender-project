@@ -28,12 +28,12 @@ noise_basii =  (
     'VORONOI_CRACKLE', 
     'CELLNOISE')
     
-    
-'''
+
+
 bpy.ops.mesh.primitive_grid_add(
         size=10,
-        x_subdivisions=100,
-        y_subdivisions=100
+        x_subdivisions=20,
+        y_subdivisions=20
         )
         
 ob = context.object
@@ -48,8 +48,15 @@ for v in me.vertices:
                                     noise_basis='BLENDER'
                                     )
     v.co.z = noise_val
+    bpy.ops.object.metaball_add(type='BALL', 
+                                radius=0.1, 
+                                enter_editmode=False, 
+                                align='WORLD', 
+                                location=(v.co.x, v.co.y, v.co.z + 1), 
+                                scale=(1, 1, 1))
+    so = bpy.context.active_object
 
-'''
+
 '''
 sk = ob.shape_key_add(name="Basis")
 
